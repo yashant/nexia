@@ -89,7 +89,6 @@ const JoinButton = styled.div`
 `;
 
 const CodeInput = styled.div`
-
 `;
 
 const FlexRow = styled.div`

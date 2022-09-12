@@ -46,7 +46,13 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #70DCE3;
+  color: #C6BFC3;
+  font-weight: 800;
+}
+
+.secondaryBtn:hover {
+  background-color: #70DCE3;
+  color: #12171A;
 }
 
 .primaryBtn {
@@ -62,8 +68,13 @@ h4 {
   font-weight: 800;
   color: #12171A;
   border: 2px solid #70DCE3;
-  ;
 }
+
+.primaryBtn:hover {
+  box-shadow: 4px 4px 25px rgba(112, 220, 227, 0.2);
+  color: #12171A;
+}
+
 
 .primaryInput {
   display: flex;
@@ -78,7 +89,7 @@ h4 {
   background: #12171A;
   border: 2px solid #C6BFC3;
   border-radius: 50px;
-  color: #70DCE3;
+  color: #C6BFC3;
 }
 
 .flexRow {
