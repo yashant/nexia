@@ -17,7 +17,7 @@ code {
 }
 
 .wrapperPadding {
-  padding: 0 120px;
+  padding: 120px;
 }
 
 h1 {
@@ -83,4 +83,10 @@ h4 {
 
 .flexRow {
   display: flex;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
