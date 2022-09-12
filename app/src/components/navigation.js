@@ -7,7 +7,7 @@ const NavigationBar = () => {
     <NavBar>
       <Wrapper className="wrapperPadding">
         <img src={logo}></img>
-        <PrimaryBtn>
+        <PrimaryBtn className="secondaryBtn">
           Host a party
         </PrimaryBtn>
       </Wrapper>
@@ -26,15 +26,7 @@ const NavBar = styled.div`
   align-items:center;
 `;
 const PrimaryBtn = styled.div`
-  cursor:pointer;
-  border: 2px solid #70DCE3;
-  width: 187px;
-  height: 49px;
-  border-radius: 50px;
-  display:flex;
-  justify-content: center;
-  align-items:center;
-  color:#70DCE3;
+ 
 `;
 const Wrapper = styled.div`
   display:flex;

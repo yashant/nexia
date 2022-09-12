@@ -7,6 +7,8 @@ body {
   line-height: 150%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #FFFEEE;
+
 }
 
 code {
@@ -16,4 +18,69 @@ code {
 
 .wrapperPadding {
   padding: 0 120px;
+}
+
+h1 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 100%;
+  margin: 0;
+}
+
+h4 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 140%;
+}
+
+.secondaryBtn {
+  cursor: pointer;
+  border: 2px solid #70DCE3;
+  width: 187px;
+  height: 49px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #70DCE3;
+}
+
+.primaryBtn {
+  cursor: pointer;
+  background: #70DCE3;
+  border-radius: 50px;
+  width: 187px;
+  height: 49px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  color: #12171A;
+  border: 2px solid #70DCE3;
+  ;
+}
+
+.primaryInput {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  width: 458px;
+  height: 49px;
+
+  background: #12171A;
+  border: 2px solid #C6BFC3;
+  border-radius: 50px;
+  color: #70DCE3;
+}
+
+.flexRow {
+  display: flex;
 }
