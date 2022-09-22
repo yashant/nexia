@@ -1,5 +1,5 @@
 Nexia: 
-Never listen to the music you don't link.
+Never listen to the music you don't like.
 
 https://nexia1.herokuapp.com/
 
