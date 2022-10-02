@@ -108,6 +108,7 @@ width:180px;
 const HowItWorks = styled.div`
   gap: 20px;
   text-align:center;
+  background-color: #FFFEEE;
 `;
 
 
