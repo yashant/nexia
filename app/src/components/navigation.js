@@ -7,9 +7,11 @@ const NavigationBar = () => {
     <NavBar>
       <Wrapper className="wrapperPadding">
         <img src={logo}></img>
-        <PrimaryBtn className="secondaryBtn">
-          Host a party
-        </PrimaryBtn>
+        <a href="../login">
+          <PrimaryBtn className="secondaryBtn">
+            Host a party
+          </PrimaryBtn>
+        </a>
       </Wrapper>
     </NavBar>
 
