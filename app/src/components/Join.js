@@ -2,17 +2,17 @@ import React from "react";
 import styled from "styled-components";
 import Headphone from '../asset/headphone.png';
 import logo from '../asset/logo.svg';
-//import Spotify from '../asset/spotify.svg';
-import { ReactComponent as Spotify } from '../asset/spotify.svg';
+
 
 const LoginPage = () => {
   return (
     <>
       <BodyContainer>
         <img src={logo}></img>
-        We are excitied to get your party started!
+        Please enter the 6 digit code provided by your host.
+        <CodeInput className="primaryInput"> Enter the 6-digit code </CodeInput>
         <Linking href="../waiting">
-          <JoinButton className="secondaryBtn">  <Spotify /> Login with Spotify</JoinButton>
+          <JoinButton className="primaryBtn"> Join a Party</JoinButton>
         </Linking>
       </BodyContainer>
 
@@ -32,12 +32,15 @@ background-color: #12171A;;
 background-image: url(${Headphone});
 background-size: cover;
 `;
-
+const CodeInput = styled.div`
+  width:40%;
+  margin-bottom:-8px;
+`;
 const JoinButton = styled.div`
   width:100%;
   margin-top:-8px;
-  gap:8px;
 `;
+
 const Linking = styled.a`
   width: 40%;
 `;

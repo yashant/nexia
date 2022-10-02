@@ -113,8 +113,9 @@ const WaitingText = styled.div`
 `;
 
 const Members = styled.div`
-  width: 442px;
+  width: 40%;
   display:flex;
+  justify-content:center;
   flex-direction:column;
   gap:16px;
 `;

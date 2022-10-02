@@ -19,7 +19,9 @@ const LoginPage = () => {
           <SubHeader> You’ll never have to listen to the music you don’t like</SubHeader>
           <FlexRow className="flexRow">
             <CodeInput className="primaryInput"> Enter the 6-digit code </CodeInput>
-            <JoinButton className="primaryBtn"> Join Now</JoinButton>
+            <a href="../join">
+              <JoinButton className="primaryBtn"> Join Now</JoinButton>
+            </a>
           </FlexRow>
         </HeroContent>
 

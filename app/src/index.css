@@ -57,6 +57,15 @@ h4 {
 .secondaryBtn:hover {
   background-color: #70DCE3;
   color: #12171A;
+
+}
+
+.secondaryBtn:hover svg {
+  fill: #12171A;
+}
+
+svg {
+  fill: #C6BFC3;
 }
 
 .primaryBtn {

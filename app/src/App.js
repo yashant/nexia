@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LoginPage from "./components/Login";
 import HomePage from "./components/Homepage";
 import Waiting from "./components/Waiting";
+import Join from "./components/Join";
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/waiting" element={<Waiting />} />
-
+        <Route path="/join" element={<Join />} />
       </Routes>
     </BrowserRouter>
   );
