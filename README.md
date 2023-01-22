@@ -1,7 +1,7 @@
 Nexia: 
 Never listen to the music you don't like.
 
-https://nexia1.herokuapp.com/
+https://nexia.onrender.com/
 
 Frontend: React.js
 
